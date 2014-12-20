@@ -72,10 +72,10 @@ appear in tidy.txt):
 
 ## Source Data
 Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
-orge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. 
-Smartlab - Non Linear Complex Systems Laboratory 
-DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy. 
-activityrecognition '@' smartlab.ws 
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - UniversitÃ  degli Studi di Genova, Genoa I-16145, Italy.
+activityrecognition '@' smartlab.ws
 www.smartlab.ws 
 
 ### Data Set Information
