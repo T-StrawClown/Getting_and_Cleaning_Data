@@ -45,4 +45,4 @@ You should create one R script called run_analysis.R that does the following.
  - version info: script created with RStudio Version 0.98.1091, on 64-bit Windows 7, 64-bit R version 3.1.2, LaF version 0.6.1, dplyr version 0.3.0.2 - everything brand new and shining ATM
  - more info about sourse dataset of Human Activity Recognition Using Smartphones Data Set here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
  - if you need Human Activity Recognition Using Smartphones Data Set, it can be obtained here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
- - no animals were harmed during this project
+ - no animals were harmed during this project 
