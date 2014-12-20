@@ -13,7 +13,7 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Before you run run_analysis.R script
  - dplyr and LaF packages, like this - install.packages(c("dplyr", "LaF"))
- - download and extract Human Activity Recognition Using Smartphones Data Set to the same folder that contains where run_analysis.R
+ - download and extract Human Activity Recognition Using Smartphones Data Set to the same folder that contains where run_analysis.R (see notes for link)
  - set your working directory to the same folder, like this - setwd("path_to_the_folder_where_run_analysi.R_is_located")
  - the script creates bunch of data frames and other objects on the way. Most of them were created for debug purposes or just out of curioucity, 
  the ones that you might be interested in are:
@@ -32,7 +32,7 @@ You should create one R script called run_analysis.R that does the following.
  - merges 2 pretty data sets (testing and training) together, loads activity description from activity_labels.txt and adds it to merged data frame called t_data 
  - creates tidy data set by doing the following (using dplyr library):
   * grouping data set by subject and activity (features subj_id and activity respectfully)
-  * ordering data set by subject and activity in ascending ordering
+  * ordering data set by subject and activity in ascending order
   * calculating means for all features (variables) of t_data, starting from 3rd and ending with 68th (in other words all except subj_id and activity)
  - saves the result in tidy.txt file in the working directory
 
@@ -41,7 +41,7 @@ You should create one R script called run_analysis.R that does the following.
  to load this type of files. I tried to load it with read.fwf, but that's like suicide...
  - in the final result (tidy data set) you might notice that original feature (variable) names are a bit different than ones described in features_info.txt. The names were changed 
  by laf_open_fwf. It seems that all non alpha-numeric characters are replaced by . (dot) internally, so instead of tBodyAcc-mean()-X you'll see tBodyAcc.mean...X, and I didn't bother to
- do anything about it as it doesn't seem to affect anything in any way
+ do anything about it as it doesn't seem to affect anything in any way...
  - version info: script created with RStudio Version 0.98.1091, on 64-bit Windows 7, 64-bit R version 3.1.2, LaF version 0.6.1, dplyr version 0.3.0.2 - everything brand new and shining ATM
  - more info about sourse dataset of Human Activity Recognition Using Smartphones Data Set here http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
  - if you need Human Activity Recognition Using Smartphones Data Set, it can be obtained here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
